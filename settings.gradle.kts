@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "ru.mirea.AleevAV.lesson1"
 include(":app")
+include(":layouttype")
