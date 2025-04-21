@@ -10,7 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Task_1" />
+            <option value="$PROJECT_DIR$/LayoutType" />
             <option value="$PROJECT_DIR$/buttonclicker" />
           </set>
         </option>

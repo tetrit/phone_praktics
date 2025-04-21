@@ -20,5 +20,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "ru.mirea.AleevAV.lesson1"
-include(":Task_1")
+include(":LayoutType")
 include(":buttonclicker")
