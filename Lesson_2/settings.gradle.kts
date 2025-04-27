@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "ru.mirea.AleevAV.lesson2"
 include(":app")
 include(":activitylifecycle")
+include(":multiactivity")
