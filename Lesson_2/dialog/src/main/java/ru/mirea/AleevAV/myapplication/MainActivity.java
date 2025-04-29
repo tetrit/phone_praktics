@@ -1,5 +1,7 @@
 package ru.mirea.AleevAV.myapplication;
 
+import static android.app.ProgressDialog.show;
+
 import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
@@ -47,13 +49,7 @@ public class MainActivity extends AppCompatActivity {
         setInitialDateTime();
     }
 
-    TimePickerDialog.OnTimeSetListener t=new TimePickerDialog.OnTimeSetListener() {
-        public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
-            dateAndTime.set(Calendar.HOUR_OF_DAY, hourOfDay);
-            dateAndTime.set(Calendar.MINUTE, minute);
-            setInitialDateTime();
-        }
-    };
+
 
     DatePickerDialog.OnDateSetListener d=new DatePickerDialog.OnDateSetListener() {
         public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
@@ -86,10 +82,13 @@ public class MainActivity extends AppCompatActivity {
 
         public void OnClickTimeDialog(View view) {
 
-            new TimePickerDialog(MainActivity.this, t,
-                    dateAndTime.get(Calendar.HOUR_OF_DAY),
-                    dateAndTime.get(Calendar.MINUTE), true)
-                    .show();
+            Timerclass time = new Timerclass(MainActivity.this, dateAndTime,
+                    (timePicker, hourOfDay, minute) ->{
+                dateAndTime.set(Calendar.HOUR_OF_DAY, hourOfDay);
+                dateAndTime.set(Calendar.MINUTE, minute);
+                setInitialDateTime();
+            });
+            time.show();
         }
 
         private void setInitialDateTime() {
@@ -102,11 +101,13 @@ public class MainActivity extends AppCompatActivity {
 
         public void OnClickDate(View view)
         {
-            new DatePickerDialog(MainActivity.this, d,
-                    dateAndTime.get(Calendar.YEAR),
-                    dateAndTime.get(Calendar.MONTH),
-                    dateAndTime.get(Calendar.DAY_OF_MONTH))
-                    .show();
+            new DateClass(MainActivity.this, dateAndTime,
+                    (datePicker, year, monthOfYear, dayOfMonth) -> {
+                        dateAndTime.set(Calendar.YEAR, year);
+                        dateAndTime.set(Calendar.MONTH, monthOfYear);
+                        dateAndTime.set(Calendar.DAY_OF_MONTH, dayOfMonth);
+                        setInitialDateTime();
+                    }).show();
         }
 
         public void OnClickProgress(View view)
