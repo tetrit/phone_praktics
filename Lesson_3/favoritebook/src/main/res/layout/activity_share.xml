@@ -20,14 +20,15 @@
             android:id="@+id/textBook"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Любимая книга разработчика" />
+            android:paddingBottom="30px"
+            android:text="Любимая книга разработчика: &quot;мечтают ли андроиды об электроовцах&quot;" />
 
         <TextView
             android:id="@+id/textQuote"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="100px"
-            android:text="Цитата из книги" />
+            android:text="Цитата из книги:  &quot;Первый закон Хлама, – сказал Изидор. – «Хлам вытесняет нехлам»&quot;" />
 
         <EditText
             android:id="@+id/editTextBook"
@@ -49,6 +50,7 @@
             android:id="@+id/buttonSubmit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="onClickSubmit"
             android:text="Отправить" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

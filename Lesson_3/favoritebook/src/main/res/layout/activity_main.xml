@@ -23,6 +23,7 @@
         android:id="@+id/buttonOpen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="OnClickgetInfoAboutBook"
         android:text="Открыть экран ввода данных"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
