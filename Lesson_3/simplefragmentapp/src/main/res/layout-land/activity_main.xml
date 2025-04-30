@@ -8,12 +8,14 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="630dp"
+        android:layout_height="336dp"
         android:gravity="center"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <Button
             android:id="@+id/button"
@@ -33,6 +35,13 @@
             android:id="@+id/fragmentContainerView"
             android:name="ru.mirea.aleev.simplefragmentapp.FirstFragment"
             android:layout_width="match_parent"
+            android:layout_height="129dp" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerView2"
+            android:name="ru.mirea.aleev.simplefragmentapp.SecondFragment"
+            android:layout_width="match_parent"
             android:layout_height="match_parent" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

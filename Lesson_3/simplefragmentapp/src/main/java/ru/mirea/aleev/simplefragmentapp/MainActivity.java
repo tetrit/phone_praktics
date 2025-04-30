@@ -1,14 +1,20 @@
 package ru.mirea.aleev.simplefragmentapp;
 
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 
 public class MainActivity extends AppCompatActivity {
+    private Fragment fragment1, fragment2;
+
+    private FragmentManager fragmentManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,5 +26,19 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        fragment1 = new FirstFragment();
+        fragment2 = new SecondFragment();
+        fragmentManager = getSupportFragmentManager();
+    }
+
+    public void onClick1Fragment(View view){
+        fragmentManager.beginTransaction().replace(R.id.fragmentContainerView,
+                fragment1).commit();
+    }
+
+    public void onClick2Fragment(View view){
+        fragmentManager.beginTransaction().replace(R.id.fragmentContainerView,
+                fragment2).commit();
     }
 }
