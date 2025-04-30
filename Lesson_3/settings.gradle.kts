@@ -23,3 +23,5 @@ rootProject.name = "ru.mirea.AleevAV.Lesson3"
 include(":IntentApp")
 include(":sharer")
 include(":favoritebook")
+include(":systemintentsapp")
+include(":simplefragmentapp")
