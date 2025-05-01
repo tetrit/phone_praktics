@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         String dateString = sdf.format(new Date(dateInMillis));
         Intent intent = new Intent(this, SecondActivity.class);
         intent.putExtra("Time", dateString);
+        intent.putExtra("sq",String.valueOf(Math.pow(1, 2)));
         startActivity(intent);
     }
 
