@@ -16,5 +16,14 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_data"
+            android:icon="@drawable/severance_baloon"
+            android:title="Разделение" />
+
+        <item
+            android:id="@+id/nav_web"
+            android:icon="@drawable/wikipedia_s_w_svg"
+            android:title="вики-страница сериала" />
     </group>
 </menu>
