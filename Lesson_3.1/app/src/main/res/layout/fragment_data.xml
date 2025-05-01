@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A9A9A9"
+    app:layout_anchorGravity="fill_vertical"
+    tools:context=".DataFragment"
+    android:backgroundTint="@color/material_dynamic_neutral100">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextAppearance.Material3.HeadlineLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Разделение"
+            android:textSize="34sp"
+            android:textColor="@color/material_dynamic_neutral_variant0"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="277dp"
+            app:srcCompat="@drawable/severance"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            style="@style/TextAppearance.Material3.BodyMedium"
+            android:id="@+id/textView2"
+            android:layout_width="384dp"
+            android:layout_height="wrap_content"
+            android:text="Сюжет рассказывает о Марке, сотруднике компании Lumon Industries, который соглашается на процедуру «разделения», в рамках которой его нерабочие воспоминания отделяются от рабочих"
+            android:textSize="20sp"
+            android:textColor="@color/material_dynamic_neutral_variant0"/>
+
+    </LinearLayout>
+
+</FrameLayout>

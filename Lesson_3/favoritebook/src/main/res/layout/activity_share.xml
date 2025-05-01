@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShareActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30px"
+            android:text="Любимая книга разработчика: &quot;мечтают ли андроиды об электроовцах&quot;" />
+
+        <TextView
+            android:id="@+id/textQuote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="100px"
+            android:text="Цитата из книги:  &quot;Первый закон Хлама, – сказал Изидор. – «Хлам вытесняет нехлам»&quot;" />
+
+        <EditText
+            android:id="@+id/editTextBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введите название  Вашей любимой книги"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextQuote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введите цитату из  Вашей любимой книги"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickSubmit"
+            android:text="Отправить" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
