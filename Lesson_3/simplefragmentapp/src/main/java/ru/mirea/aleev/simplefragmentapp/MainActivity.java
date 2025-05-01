@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClick1Fragment(View view){
         fragmentManager.beginTransaction().replace(R.id.fragmentContainerView,
                 fragment1).commit();
+        
     }
 
     public void onClick2Fragment(View view){
