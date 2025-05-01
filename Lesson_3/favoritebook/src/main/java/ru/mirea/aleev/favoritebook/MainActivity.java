@@ -67,10 +67,6 @@ public class MainActivity extends AppCompatActivity {
         activityResultLauncher.launch(intent);
     }
 
-    @Override
-    public void onStart() {
-        super.onStart();
 
-    }
 
 }
