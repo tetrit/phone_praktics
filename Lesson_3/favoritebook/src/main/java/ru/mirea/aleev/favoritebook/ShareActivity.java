@@ -47,7 +47,7 @@ public class ShareActivity extends AppCompatActivity {
 
     public void onClickSubmit(View view){
         Intent data = new Intent();
-        data.putExtra(MainActivity.USER_MESSAGE, "Название Вашей любимой книги: " + editBook.getText().toString() + ". Цитата: " + editBook.getText().toString());
+        data.putExtra(MainActivity.USER_MESSAGE, "Название Вашей любимой книги: " + editBook.getText().toString() + ". Цитата: " + editQuote.getText().toString());
         setResult(Activity.RESULT_OK, data);
         finish();
     }

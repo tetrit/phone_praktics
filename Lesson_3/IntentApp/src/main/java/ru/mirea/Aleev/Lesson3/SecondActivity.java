@@ -22,10 +22,12 @@ public class SecondActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
 
 
+
             TextView text_Time = findViewById(R.id.textTime);
             Intent intent = getIntent();
             String datetime = intent.getStringExtra("Time");
-            text_Time.setText("Квадрат значения моего номера по списку в группе составляет: 1, а текущее время: " + datetime);
+            String sq = intent.getStringExtra("sq");
+            text_Time.setText("Квадрат значения моего номера по списку в группе составляет: "+  sq+ ", а текущее время: " + datetime);
             return insets;
         });
     }
