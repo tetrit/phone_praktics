@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "ru.mirea.AleevAV.Lesson4"
 include(":MusicPlayer")
 include(":thread")
+include(":data_thread")
