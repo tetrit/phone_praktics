@@ -19,13 +19,21 @@ public class MyLooper extends Thread{
         Looper.prepare();
         mHandler = new Handler(Looper.myLooper()){
             public void handleMessage(Message msg){
-                String data = msg.getData().getString("KEY");
-                Log.d("MyLooper get message", data);
+                Integer age = msg.getData().getInt("AGE");
+                Log.d("MyLooper get message", String.valueOf(age));
+                String Job = msg.getData().getString("JOB");
+                Log.d("MyLooper get message", Job);
 
-                int count = data.length();
                 Message message = new Message();
                 Bundle bundle = new Bundle();
-                bundle.putString("result",String.format("The number of letters in the word %s is %d", data, count));
+                try{
+                    Thread.sleep(age * 1000);
+                } catch (InterruptedException e){
+                    e.printStackTrace();
+                }
+
+
+                bundle.putString("result",String.format("Возраст: %d ||| Работа: %s", age, Job));
                 message.setData(bundle);
 
                 mainHandler.sendMessage(message);

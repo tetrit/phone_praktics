@@ -42,13 +42,20 @@ public class MainActivity extends AppCompatActivity {
         MyLooper myLooper = new MyLooper(mainThreadHandler);
         myLooper.start();
 
-        binding.editText.setText("Мой номер по списку № 1");
-        binding.button.setOnClickListener(new View.OnClickListener() {
+        //binding.editText.setText("Мой номер по списку № 1");
+
+
+        binding.buttonSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Message msg = Message.obtain();
                 Bundle bundle = new Bundle();
-                bundle.putString("KEY", "mirea");
+
+                int age = Integer.parseInt(binding.editTextAge.getText().toString());
+                String job = binding.editTextJob.getText().toString();
+
+                bundle.putInt("AGE", age);
+                bundle.putString("JOB", job);
                 msg.setData(bundle);
                 myLooper.mHandler.sendMessage(msg);
             }
