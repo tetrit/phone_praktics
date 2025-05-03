@@ -25,5 +25,10 @@
             android:id="@+id/nav_web"
             android:icon="@drawable/wikipedia_s_w_svg"
             android:title="вики-страница сериала" />
+
+        <item
+            android:id="@+id/nav_player"
+            android:icon="@drawable/music_note_icon_33"
+            android:title="Музыка из сериала" />
     </group>
 </menu>
