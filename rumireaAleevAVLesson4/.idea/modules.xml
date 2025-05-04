@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ru.mirea.AleevAV.Lesson4.iml" filepath="$PROJECT_DIR$/.idea/modules/ru.mirea.AleevAV.Lesson4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ru.mirea.AleevAV.Lesson4.MusicPlayer.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ru.mirea.AleevAV.Lesson4.MusicPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MusicPlayer/ru.mirea.AleevAV.Lesson4.MusicPlayer.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/MusicPlayer/ru.mirea.AleevAV.Lesson4.MusicPlayer.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MusicPlayer/ru.mirea.AleevAV.Lesson4.MusicPlayer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MusicPlayer/ru.mirea.AleevAV.Lesson4.MusicPlayer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MusicPlayer/ru.mirea.AleevAV.Lesson4.MusicPlayer.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/MusicPlayer/ru.mirea.AleevAV.Lesson4.MusicPlayer.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cryptoloader/ru.mirea.AleevAV.Lesson4.cryptoloader.iml" filepath="$PROJECT_DIR$/.idea/modules/cryptoloader/ru.mirea.AleevAV.Lesson4.cryptoloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cryptoloader/ru.mirea.AleevAV.Lesson4.cryptoloader.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/cryptoloader/ru.mirea.AleevAV.Lesson4.cryptoloader.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cryptoloader/ru.mirea.AleevAV.Lesson4.cryptoloader.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cryptoloader/ru.mirea.AleevAV.Lesson4.cryptoloader.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cryptoloader/ru.mirea.AleevAV.Lesson4.cryptoloader.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/cryptoloader/ru.mirea.AleevAV.Lesson4.cryptoloader.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data_thread/ru.mirea.AleevAV.Lesson4.data_thread.iml" filepath="$PROJECT_DIR$/.idea/modules/data_thread/ru.mirea.AleevAV.Lesson4.data_thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data_thread/ru.mirea.AleevAV.Lesson4.data_thread.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/data_thread/ru.mirea.AleevAV.Lesson4.data_thread.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data_thread/ru.mirea.AleevAV.Lesson4.data_thread.main.iml" filepath="$PROJECT_DIR$/.idea/modules/data_thread/ru.mirea.AleevAV.Lesson4.data_thread.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data_thread/ru.mirea.AleevAV.Lesson4.data_thread.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/data_thread/ru.mirea.AleevAV.Lesson4.data_thread.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/looper/ru.mirea.AleevAV.Lesson4.looper.iml" filepath="$PROJECT_DIR$/.idea/modules/looper/ru.mirea.AleevAV.Lesson4.looper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/looper/ru.mirea.AleevAV.Lesson4.looper.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/looper/ru.mirea.AleevAV.Lesson4.looper.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/looper/ru.mirea.AleevAV.Lesson4.looper.main.iml" filepath="$PROJECT_DIR$/.idea/modules/looper/ru.mirea.AleevAV.Lesson4.looper.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/looper/ru.mirea.AleevAV.Lesson4.looper.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/looper/ru.mirea.AleevAV.Lesson4.looper.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serviceapp/ru.mirea.AleevAV.Lesson4.serviceapp.iml" filepath="$PROJECT_DIR$/.idea/modules/serviceapp/ru.mirea.AleevAV.Lesson4.serviceapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serviceapp/ru.mirea.AleevAV.Lesson4.serviceapp.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/serviceapp/ru.mirea.AleevAV.Lesson4.serviceapp.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serviceapp/ru.mirea.AleevAV.Lesson4.serviceapp.main.iml" filepath="$PROJECT_DIR$/.idea/modules/serviceapp/ru.mirea.AleevAV.Lesson4.serviceapp.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serviceapp/ru.mirea.AleevAV.Lesson4.serviceapp.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/serviceapp/ru.mirea.AleevAV.Lesson4.serviceapp.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/thread/ru.mirea.AleevAV.Lesson4.thread.iml" filepath="$PROJECT_DIR$/.idea/modules/thread/ru.mirea.AleevAV.Lesson4.thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/thread/ru.mirea.AleevAV.Lesson4.thread.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/thread/ru.mirea.AleevAV.Lesson4.thread.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/thread/ru.mirea.AleevAV.Lesson4.thread.main.iml" filepath="$PROJECT_DIR$/.idea/modules/thread/ru.mirea.AleevAV.Lesson4.thread.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/thread/ru.mirea.AleevAV.Lesson4.thread.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/thread/ru.mirea.AleevAV.Lesson4.thread.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workmanager/ru.mirea.AleevAV.Lesson4.workmanager.iml" filepath="$PROJECT_DIR$/.idea/modules/workmanager/ru.mirea.AleevAV.Lesson4.workmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workmanager/ru.mirea.AleevAV.Lesson4.workmanager.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/workmanager/ru.mirea.AleevAV.Lesson4.workmanager.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workmanager/ru.mirea.AleevAV.Lesson4.workmanager.main.iml" filepath="$PROJECT_DIR$/.idea/modules/workmanager/ru.mirea.AleevAV.Lesson4.workmanager.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workmanager/ru.mirea.AleevAV.Lesson4.workmanager.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/workmanager/ru.mirea.AleevAV.Lesson4.workmanager.unitTest.iml" />
+    </modules>
+  </component>
+</project>
