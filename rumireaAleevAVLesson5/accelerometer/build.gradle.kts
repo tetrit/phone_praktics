@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "ru.mirea.aleev.rumireaaleevavlesson5"
+    namespace = "ru.mirea.aleev.accelerometer"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "ru.mirea.aleev.rumireaaleevavlesson5"
+        applicationId = "ru.mirea.aleev.accelerometer"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -28,6 +28,9 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
+    }
+    buildFeatures{
+        viewBinding = true
     }
 }
 
