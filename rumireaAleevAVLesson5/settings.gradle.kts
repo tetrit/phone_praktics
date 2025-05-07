@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "ru.mirea.AleevAV.Lesson5"
 include(":Sensor")
 include(":accelerometer")
+include(":camera")
