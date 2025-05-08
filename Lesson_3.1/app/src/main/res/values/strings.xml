@@ -12,4 +12,10 @@
     <string name="menu_slideshow">Slideshow</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="file_operations">
+        <item>Шифровать файл</item>
+        <item>Дешифровать файл</item>
+        <item>Спрятать текст в изображении</item>
+    </string-array>
 </resources>
