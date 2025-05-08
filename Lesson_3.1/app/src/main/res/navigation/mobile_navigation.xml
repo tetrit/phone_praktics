@@ -41,4 +41,19 @@
         android:label="Player"
         tools:layout="@layout/fragment_player"
         />
+
+    <fragment
+        android:id="@+id/nav_compass"
+        android:name="ru.mirea.aleev.mireaproject.CompassFragment"
+        android:label="Compass"
+        tools:layout="@layout/fragment_compass"
+        />
+
+    <fragment
+        android:id="@+id/nav_note"
+        android:name="ru.mirea.aleev.mireaproject.NoteFragment"
+        android:label="Note"
+        tools:layout="@layout/fragment_note"
+        />
+
 </navigation>
