@@ -1,0 +1,26 @@
+package ru.mirea.aleev.employeedb;
+
+import androidx.room.Dao;
+import androidx.room.Delete;
+import androidx.room.Insert;
+import androidx.room.Query;
+import androidx.room.Update;
+import java.util.List;
+
+@Dao
+public interface SuperHeroDao {
+    @Query("SELECT * FROM superheroes")
+    List<SuperHero> getAll();
+
+    @Query("SELECT * FROM superheroes WHERE id = :id")
+    SuperHero getById(int id);
+
+    @Insert
+    void insert(SuperHero superHero);
+
+    @Update
+    void update(SuperHero superHero);
+
+    @Delete
+    void delete(SuperHero superHero);
+}
