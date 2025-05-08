@@ -40,6 +40,16 @@
             android:icon="@drawable/note"
             android:title="заметка"/>
 
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="профиль"/>
+
+        <item
+            android:id="@+id/nav_file"
+            android:icon="@drawable/file"
+            android:title="работа с файлами"/>
+
 
     </group>
 </menu>
