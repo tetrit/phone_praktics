@@ -24,7 +24,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;
     private static final int REQUEST_CODE_PERMISSION = 200;
-    private final String TAG = MainActivity.class.getSimpleName();
+    //private final String TAG = MainActivity.class.getSimpleName();
 
     private boolean isWork;
     private String fileName = null;
