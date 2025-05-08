@@ -23,3 +23,4 @@ rootProject.name = "ru.mirea.AleevAV.Lesson6"
 include(":app")
 include(":securesharedpreferences")
 include(":internalfilestorage")
+include(":notebook")
