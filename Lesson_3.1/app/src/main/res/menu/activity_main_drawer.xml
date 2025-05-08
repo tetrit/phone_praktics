@@ -39,6 +39,10 @@
             android:id="@+id/nav_note"
             android:icon="@drawable/note"
             android:title="заметка"/>
+        <item
+            android:id="@+id/nav_micro"
+            android:icon="@drawable/microphone"
+            android:title="диктофон"/>
 
 
     </group>
