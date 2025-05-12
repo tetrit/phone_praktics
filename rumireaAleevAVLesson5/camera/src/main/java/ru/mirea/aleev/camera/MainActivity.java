@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
     private boolean isWork;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,7 +51,6 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        //TODO: добаить проверку как-то 💀💀💀
         int CameraPermissionStatus = ContextCompat.checkSelfPermission(this, android.Manifest.permission.CAMERA);
         int storagePermissionStatus = ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE); // на android 10+ не работает 🤷‍♂️
         if(CameraPermissionStatus == PackageManager.PERMISSION_GRANTED){

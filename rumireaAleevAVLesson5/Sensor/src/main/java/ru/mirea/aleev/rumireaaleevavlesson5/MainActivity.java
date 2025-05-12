@@ -54,7 +54,5 @@ public class MainActivity extends AppCompatActivity {
                         new int[]{android.R.id.text1, android.R.id.text2});
         listSensor.setAdapter(mHistory);
 
-
-
     }
 }
