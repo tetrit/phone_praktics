@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "248996068861",
+    "project_id": "rumireaaleevlesson7",
+    "storage_bucket": "rumireaaleevlesson7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248996068861:android:595c9b39fe3a3a9172ad94",
+        "android_client_info": {
+          "package_name": "ru.mirea.aleev.firebaseauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDliRE7lI4abhKi-_oSzDN51FN7Uy7jVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
