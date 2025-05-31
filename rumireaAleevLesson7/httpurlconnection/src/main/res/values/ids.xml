@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textViewCityLabel" type="id" />
+    <item name="textViewCity" type="id" />
+    <item name="textViewRegionLabel" type="id" />
+    <item name="textViewRegion" type="id" />
+    <item name="textViewCountryLabel" type="id" />
+    <item name="textViewCountry" type="id" />
+    <item name="textViewCoordinatesLabel" type="id" />
+    <item name="textViewCoordinates" type="id" />
+    <item name="textViewWeatherLabel" type="id" />
+    <item name="textViewWeather" type="id" />
+    <item name="buttonGetData" type="id" />
+    <item name="textViewStatus" type="id" />
+</resources>
