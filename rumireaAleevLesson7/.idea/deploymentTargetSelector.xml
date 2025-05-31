@@ -4,6 +4,14 @@
     <selectionStates>
       <SelectionState runConfigName="TimeService">
         <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2025-05-31T20:15:44.379631300Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="PhysicalDevice" identifier="serial=5cc9495c" />
+            </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection />
       </SelectionState>
       <SelectionState runConfigName="httpurlconnection">
         <option name="selectionMode" value="DROPDOWN" />
