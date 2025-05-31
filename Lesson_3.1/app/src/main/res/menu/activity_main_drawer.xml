@@ -54,6 +54,11 @@
             android:icon="@drawable/file"
             android:title="работа с файлами"/>
 
+        <item
+            android:id="@+id/nav_net"
+            android:icon="@drawable/wifipng"
+            android:title="тест входа"/>
+
 
     </group>
 </menu>
