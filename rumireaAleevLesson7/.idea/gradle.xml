@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/TimeService" />
+            <option value="$PROJECT_DIR$/firebaseauth" />
             <option value="$PROJECT_DIR$/httpurlconnection" />
           </set>
         </option>

@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "ru.mirea.Aleev.Lesson7"
 include(":TimeService")
 include(":httpurlconnection")
+include(":firebaseauth")
